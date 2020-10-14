@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-if [[ -z "$PYFONY_DEV_ENV_INIT_VERSION" ]]; then PYFONY_DEV_ENV_INIT_VERSION="4433ff23130232d870c388d4e1800d20f03a5a95"; fi
+if [[ -z "$PYFONY_DEV_ENV_INIT_VERSION" ]]; then PYFONY_DEV_ENV_INIT_VERSION="v1.0"; fi
 
 PYFONY_DEV_ENV_INIT_URL="https://raw.githubusercontent.com/pyfony/dev-env-init/$PYFONY_DEV_ENV_INIT_VERSION/dev_env_init.sh"
 
